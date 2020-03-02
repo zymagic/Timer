@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:minWidth="100dp"
+    android:layout_height="50dp"
+    android:orientation="vertical"
+    android:padding="6dp"
+    android:background="#80000000">
+
+    <TextView
+        android:id="@+id/flag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="9sp"
+        android:textColor="#33FF33"
+        android:text="UTC"/>
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="6dp"
+        android:background="#19000000"
+        android:textSize="16sp"
+        android:textColor="#33FF33"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        tools:text="14:00:59:34"/>
+</LinearLayout>
